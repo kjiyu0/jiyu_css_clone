@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kjiyu0.github.io/jiyu_css_clone.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,6 +23,12 @@
     "styled-normalize": "^8.0.7",
     "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
+  },  
+  "scripts": {
+    "start": "set PORT=3002 &&  react-scripts start ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
