@@ -1,0 +1,26 @@
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.profile_content {
+  overflow: hidden;
+}
+
+@for $i from 1 to 6 {
+  .profile_wrap#{$i} {
+    transform: translate(0, #{$i + 20}rem);
+    opacity: 0;
+    transition: #{$i * 0.2}s;
+  }
+  .position_on#{$i} {
+    // animation-name: opacity;
+    // animation-duration: #{$i * 0.2}s;
+    // animation-timing-function: ease-in-out;
+    transform: translate(0, 0rem);
+    opacity: 1;
+  }
+}
