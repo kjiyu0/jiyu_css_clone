@@ -103,7 +103,7 @@ const Section6Styled = styled.div`
     opacity: ${(props) => (props.position === 0 ? 0 : 1)};
     transform: translate(0, 5rem);
     transition: 1s;
-    transition-delay: 1.5s;
+    transition-delay: 1s;
   }
   button {
     position: relative;

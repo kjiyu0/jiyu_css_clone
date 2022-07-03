@@ -23,23 +23,25 @@ export default Header;
 const HeaderLayout = styled.div`
   /* response */
   height: 12.5rem;
-  position: fixed;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   width: 100vw;
-  z-index: 1;
-  top: ${(props) => (props.wheelState === "" ? "0" : props.wheelState === "up" ? 0 : "-20rem")};
+padding-left: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  /* width: 100vw; */
+  /* width: 100%; */
+  z-index: 99;
+  top: ${(props) => (props.wheelState === "" ? "0" : props.wheelState === "up" ? '0rem' : "-20rem")};
   background: ${(props) => (props.wheelState === "" ? "" : props.wheelState === "up" ? "black" : "")};
   transition: 1s;
+  position: fixed;
   ul {
-    height: 100%;
+    /* height: 100%; */
+    position: fixed;
     display: flex;
     align-items: center;
-    transform: translate(5%, 0);
     .menuTitle {
       font-weight: 600;
       font-size: ${theme.fontSizes.xl};
-      margin-left: 1rem;
     }
     li {
       font-size: ${theme.fontSizes.base};

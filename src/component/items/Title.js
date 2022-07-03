@@ -12,6 +12,7 @@ const Title = ({ children, style, ref }) => {
 
 export default Title;
 const TitleStyled = styled.div`
+color: white;
   h2 {
     font-size: ${theme.fontSizes.xxl};
     font-weight: 900;

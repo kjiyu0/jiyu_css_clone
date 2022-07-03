@@ -66,6 +66,7 @@ const Section7 = () => {
 
 export default Section7;
 const Section7Styled = styled.div`
+  overflow: hidden;
   background: url(${bg});
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,6 +101,7 @@ const Section7Styled = styled.div`
   }
   .phase_container {
     .parse_wrap {
+
       display: flex;
       > h3:first-child {
         color: white;
@@ -110,8 +112,12 @@ const Section7Styled = styled.div`
         ul {
           margin: 1rem 0;
           display: flex;
+          width: 100%;
           .per {
             width: 10rem;
+          }
+          li {
+            width: 100%;
           }
           h4 {
             font-weight: 700;
@@ -120,9 +126,10 @@ const Section7Styled = styled.div`
       }
     }
   }
-  .phase_box {
+  .phase_box {   
+    position: relative;   
+    width: auto;
     margin: 2.5rem 0;
-    width: 100%;
     padding-right: 20rem;
     transform: translate(40rem, 0);
     opacity: 0;

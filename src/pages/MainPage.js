@@ -9,10 +9,12 @@ import Section5 from "../component/section/section5/Section5";
 import Section6 from "../component/section/section6/Section6";
 import Section7 from "../component/section/section7/Section7";
 import Section8 from "../component/section/section8/Section8";
+import Footer from "../component/section/section9/Footer";
 
 const MainPage = () => {
   const [wheelState, setWheelState] = useState(""); // header 에 필요
   const content = document.querySelector(".content_container");
+  console.log(wheelState)
 
   window.addEventListener("wheel", (event) => {
     if (event.wheelDelta > 0) {
@@ -22,8 +24,10 @@ const MainPage = () => {
     }
   });
 
+  
+
   return (
-    <MainLayout id="smooth-scroll">
+    <MainLayout>
       <Header wheelState={wheelState} />
       <Section1 />
       <Section2 />
@@ -33,6 +37,7 @@ const MainPage = () => {
       <Section6 />
       <Section7 />
       <Section8 />
+      <Footer />
     </MainLayout>
   );
 };
