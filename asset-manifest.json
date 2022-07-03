@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jiyu_css_clone.github.io/static/css/main.471e900f.css",
-    "main.js": "/jiyu_css_clone.github.io/static/js/main.1c074796.js",
+    "main.css": "/jiyu_css_clone.github.io/static/css/main.f10cb414.css",
+    "main.js": "/jiyu_css_clone.github.io/static/js/main.70f21e03.js",
     "static/media/f_bg.png": "/jiyu_css_clone.github.io/static/media/f_bg.2fc084b80eb342c52664.png",
     "static/media/section06_bg.jpg": "/jiyu_css_clone.github.io/static/media/section06_bg.d7beac0a6bc6057f167b.jpg",
     "static/media/section08_bg.png": "/jiyu_css_clone.github.io/static/media/section08_bg.ca2a6e6d82246bc46fc0.png",
@@ -36,11 +36,11 @@
     "static/media/story02_thumb04.jpg": "/jiyu_css_clone.github.io/static/media/story02_thumb04.b73d0d8139189610b926.jpg",
     "static/media/logo.svg": "/jiyu_css_clone.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jiyu_css_clone.github.io/index.html",
-    "main.471e900f.css.map": "/jiyu_css_clone.github.io/static/css/main.471e900f.css.map",
-    "main.1c074796.js.map": "/jiyu_css_clone.github.io/static/js/main.1c074796.js.map"
+    "main.f10cb414.css.map": "/jiyu_css_clone.github.io/static/css/main.f10cb414.css.map",
+    "main.70f21e03.js.map": "/jiyu_css_clone.github.io/static/js/main.70f21e03.js.map"
   },
   "entrypoints": [
-    "static/css/main.471e900f.css",
-    "static/js/main.1c074796.js"
+    "static/css/main.f10cb414.css",
+    "static/js/main.70f21e03.js"
   ]
 }
