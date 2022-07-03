@@ -15,7 +15,7 @@
     "react-image-gallery": "^1.2.7",
     "react-modal": "^3.14.4",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.6",
     "smooth-scrollbar": "^8.7.4",
     "smooth-scrollbar-react": "^2.3.0",
@@ -23,9 +23,9 @@
     "styled-normalize": "^8.0.7",
     "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
-  },  
+  },
   "scripts": {
-    "start": "set PORT=3002 &&  react-scripts start ",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
