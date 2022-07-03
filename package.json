@@ -56,5 +56,5 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1"
   },
-  "homepage": "https://kjiyu0.github.io/jiyu_css_clone.github.io/"
+  "homepage": "."
 }
